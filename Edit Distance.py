@@ -22,24 +22,24 @@ from nltk import word_tokenize as tokenise
 #     return matrix[x_len - 1, y_len - 1]
 
 
-st1 = "This is a string."
-st2 = "This, too, is a string."
-st3 = "Here's the foxglove"
-
-print(levDist(st1, st2))
-print(levDist(st1, st3))
-print(levDist(st2, st3))
-print(jacDist(set(st1), set(st2)))
-print(jacDist(set(st1), set(st3)))
-print(jacDist(set(st2), set(st3)))
-
-st1 = tokenise("This is a string.")
-st2 = tokenise("This, too, is a string.")
-st3 = tokenise("Here's the foxglove")
-
-print(levDist(st1, st2))
-print(levDist(st1, st3))
-print(levDist(st2, st3))
-print(jacDist(set(st1), set(st2)))
-print(jacDist(set(st1), set(st3)))
-print(jacDist(set(st2), set(st3)))
+# st1 = "This is a string."
+# st2 = "This, too, is a string."
+# st3 = "Here's the foxglove"
+#
+# print(levDist(st1, st2))
+# print(levDist(st1, st3))
+# print(levDist(st2, st3))
+# print(jacDist(set(st1), set(st2)))
+# print(jacDist(set(st1), set(st3)))
+# print(jacDist(set(st2), set(st3)))
+#
+# st1 = tokenise("This is a string.")
+# st2 = tokenise("This, too, is a string.")
+# st3 = tokenise("Here's the foxglove")
+#
+# print(levDist(st1, st2))
+# print(levDist(st1, st3))
+# print(levDist(st2, st3))
+# print(jacDist(set(st1), set(st2)))
+# print(jacDist(set(st1), set(st3)))
+# print(jacDist(set(st2), set(st3)))
